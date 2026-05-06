@@ -39,12 +39,12 @@ jobs:
 
             - name: Run migrations
               run: |
-                cd backend
+                cd backend/drf_project
                 python manage.py migrate
 
             - name: Run tests
               run: |
-                cd backend
+                cd backend/drf_project
                 python manage.py test
 
     test-frontend:
