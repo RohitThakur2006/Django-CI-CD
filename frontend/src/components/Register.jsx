@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import axios from "axios"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpinner } from '@fortawesome/free-solid-svg-icons'
+import API_BASE_URL from '../api/config'
 
 const Register = () => {
   const [username, setUsername] = useState('')
@@ -20,7 +21,7 @@ const Register = () => {
 
     try {
         // POST request to django backend
-        const response = await axios.post("http://localhost:8000/api/v1/register/", userData)
+        const response = await axios.post(`${API_BASE_URL}/api/v1/register/`, userData)
         console.log("Response Data is: ", response.data)
         console.log("Registration successful")
         setErrors({})
