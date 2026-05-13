@@ -29,7 +29,7 @@ SECRET_KEY = config("SECRET_KEY") #  Load .env
 DEBUG = config("DEBUG", default=False, cast=bool)
 
 ALLOWED_HOSTS = [
-    "onrender.com", # app1.onrender.com
+    ".onrender.com", # app1.onrender.com
     config("RENDER_EXTERNAL_HOSTNAME", default="")
 ]
 
