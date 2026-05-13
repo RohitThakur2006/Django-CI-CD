@@ -173,6 +173,9 @@ CORS_ALLOWED_ORIGINS = [
     "https://lms-frontend-7c06.onrender.com"
 ]
 
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=10),
     "REFRESH_TOKEN_LIFETIME": timedelta(hours=12)
