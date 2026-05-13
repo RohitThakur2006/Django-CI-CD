@@ -163,12 +163,14 @@ REST_FRAMEWORK = {'DEFAULT_PAGINATION_CLASS':
 CORS_ALLOW_CREDENTIALS = True # Allows the browser to send cookies along with cross-origin requests
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://lms-frontend-7c06.onrender.com"
 ]
 
 # CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://lms-frontend-7c06.onrender.com"
 ]
 
 SIMPLE_JWT = {
