@@ -43,7 +43,8 @@ class LoginView(APIView):
             value=str(access),
             httponly=True,
             secure=True, # Make True in production
-            samesite='None'
+            samesite='None',
+            path='/'
         )
 
         response.set_cookie(
@@ -51,7 +52,8 @@ class LoginView(APIView):
             value=str(refresh),
             httponly=True,
             secure=True,
-            samesite='None'
+            samesite='None',
+            path='/'
         )
 
         return response
@@ -73,7 +75,9 @@ class RefreshView(APIView):
                 key='access_token',
                 value=str(access),
                 httponly=True,
-                secure=False
+                secure=True,
+                samesite='None',
+                path='/'
             )
 
             return response
@@ -84,7 +88,7 @@ class RefreshView(APIView):
 class LogoutView(APIView):
     def post(self, request):
         response = Response({"message": "Logged out"})
-        response.delete_cookie("access_token")
-        response.delete_cookie("refresh_token")
+        response.delete_cookie("access_token", path='/', samesite='None')
+        response.delete_cookie("refresh_token", path='/', samesite='None')
         return response
     
