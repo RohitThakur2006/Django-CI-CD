@@ -43,13 +43,17 @@ class LoginView(APIView):
             value=str(access),
             httponly=True,
             secure=True, # Make True in production
+            samesite='None',
+            path='/'
         )
 
         response.set_cookie(
             key="refresh_token",
             value=str(refresh),
             httponly=True,
-            secure=True
+            secure=True,
+            samesite='None',
+            path='/'
         )
 
         return response
@@ -71,7 +75,9 @@ class RefreshView(APIView):
                 key='access_token',
                 value=str(access),
                 httponly=True,
-                secure=True
+                secure=True,
+                samesite='None',
+                path='/'
             )
 
             return response
