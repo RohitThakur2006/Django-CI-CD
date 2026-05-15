@@ -42,14 +42,16 @@ class LoginView(APIView):
             key="access_token",
             value=str(access),
             httponly=True,
-            secure=True # Make True in production
+            secure=True, # Make True in production
+            samesite='None'
         )
 
         response.set_cookie(
             key="refresh_token",
             value=str(refresh),
             httponly=True,
-            secure=True
+            secure=True,
+            samesite='None'
         )
 
         return response
