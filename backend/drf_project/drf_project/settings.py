@@ -28,10 +28,15 @@ SECRET_KEY = config("SECRET_KEY") #  Load .env
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG", default=False, cast=bool)
 
-ALLOWED_HOSTS = [
-    ".onrender.com", # app1.onrender.com
-    config("RENDER_EXTERNAL_HOSTNAME", default="")
-]
+# ALLOWED_HOSTS = [
+#     ".onrender.com", # app1.onrender.com
+#     config("RENDER_EXTERNAL_HOSTNAME", default="")
+# ]
+
+
+
+ALLOWED_HOSTS = ['*']
+
 
 
 # Application definition
@@ -101,12 +106,23 @@ WSGI_APPLICATION = 'drf_project.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': dj_database_url.config(
+#         default=config('DATABASE_URL'),
+#         conn_max_age=600,
+#         ssl_require=True
+#     )
+# }
+
 DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL'),
-        conn_max_age=600,
-        ssl_require=True
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config('POSTGRES_DB'),
+        'USER': config('POSTGRES_USER'),
+        'PASSWORD': config('POSTGRES_PASSWORD'),
+        'HOST': config('POSTGRES_HOST', 'db'),
+        'PORT': config('POSTGRES_PORT', '5432'),
+    }
 }
 
 
