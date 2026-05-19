@@ -9,5 +9,5 @@ frontend/dist/
 frontend/.env
 
 #Database
-.sql
-.json
+*.sql
+*.json
