@@ -1,0 +1,371 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$AZOX2czEr35T0pZ0VdaZEl$bFSlgIce7gm1kqOT8AkrWzulSHD3M3BSfFWIdxkjFyU=",
+      "last_login": "2026-03-16T14:22:09.536Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "test@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-02-18T04:38:45.699Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$XpbWdW4HX9tS9m7gLZ5Oy1$B0UOQWNlp/pZl/rWEcW2VQD94nlFNqY8C0u7uzriqGo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test123",
+      "first_name": "",
+      "last_name": "",
+      "email": "test123@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-02-26T05:19:22.082Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "test@123",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test12345",
+      "first_name": "",
+      "last_name": "",
+      "email": "test12345@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-11T14:13:19.032Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "test@1234",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "john",
+      "first_name": "",
+      "last_name": "",
+      "email": "john@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-13T14:43:11.645Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "Test@1234",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "jill",
+      "first_name": "",
+      "last_name": "",
+      "email": "johnkhj@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-13T15:22:11.821Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "Test@1234",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "alice",
+      "first_name": "",
+      "last_name": "",
+      "email": "alice@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-13T15:23:51.422Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "Tet@1234",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "jack",
+      "first_name": "",
+      "last_name": "",
+      "email": "jack@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-16T13:41:28.093Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "password": "Test@123",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "mark",
+      "first_name": "",
+      "last_name": "",
+      "email": "mark@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-16T13:50:55.538Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "password": "Test@123",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "mark123",
+      "first_name": "",
+      "last_name": "",
+      "email": "mark123@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-16T13:53:46.450Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "password": "Test@123",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "mark1234",
+      "first_name": "",
+      "last_name": "",
+      "email": "mark1234@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-16T13:59:27.387Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+      "password": "Test@123",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "mark12345",
+      "first_name": "",
+      "last_name": "",
+      "email": "mark12345@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-16T14:01:48.163Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 13,
+    "fields": {
+      "password": "Test@1234",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test123455",
+      "first_name": "",
+      "last_name": "",
+      "email": "test123455@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-16T14:19:22.587Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 14,
+    "fields": {
+      "password": "Test@123",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "rishabh",
+      "first_name": "",
+      "last_name": "",
+      "email": "rishabh@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-18T02:16:22.488Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 1,
+    "fields": {
+      "teacher_id": "T12345",
+      "name": "John Cena",
+      "email": "john@example.com"
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 3,
+    "fields": {
+      "teacher_id": "T22222",
+      "name": "Alice",
+      "email": "alice@example.com"
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 4,
+    "fields": {
+      "teacher_id": "T101010",
+      "name": "Ross Gellar",
+      "email": "ross@example.com"
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 5,
+    "fields": {
+      "teacher_id": "T98765",
+      "name": "Monica Gellar",
+      "email": "monica@example.com"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1001,
+    "fields": {
+      "name": "Rohit Kumar",
+      "branch": "CSE",
+      "mentor": "M35336"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1003,
+    "fields": {
+      "name": "Shivam",
+      "branch": "Agriculture",
+      "mentor": "M35336"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1004,
+    "fields": {
+      "name": "Pranika kumari",
+      "branch": "CSE ML & AI",
+      "mentor": "M104539"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1009,
+    "fields": {
+      "name": "Dev Krishna",
+      "branch": "CSE Data Science",
+      "mentor": null
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1010,
+    "fields": {
+      "name": "Vicky",
+      "branch": "CSE",
+      "mentor": null
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1111,
+    "fields": {
+      "name": "Nitin",
+      "branch": "CSE",
+      "mentor": "M104539"
+    }
+  },
+  {
+    "model": "mentors.mentor",
+    "pk": "M104539",
+    "fields": {
+      "mentor_name": "Chris Woakes",
+      "mentor_email": "chris@example.com",
+      "mentor_expertise": null
+    }
+  },
+  {
+    "model": "mentors.mentor",
+    "pk": "M35336",
+    "fields": {
+      "mentor_name": "Mark Wood",
+      "mentor_email": "mark@example.com",
+      "mentor_expertise": null
+    }
+  },
+  {
+    "model": "mentors.mentor",
+    "pk": "M353369",
+    "fields": {
+      "mentor_name": "Darren Gough",
+      "mentor_email": "darren@example.com",
+      "mentor_expertise": null
+    }
+  },
+  {
+    "model": "mentors.mentor",
+    "pk": "M35337",
+    "fields": {
+      "mentor_name": "VIrat Kohli",
+      "mentor_email": "virat@example.com",
+      "mentor_expertise": "Python, Django, React"
+    }
+  },
+  {
+    "model": "mentors.mentor",
+    "pk": "M35340",
+    "fields": {
+      "mentor_name": "Joe Root",
+      "mentor_email": "joe@example.com",
+      "mentor_expertise": null
+    }
+  }
+]
